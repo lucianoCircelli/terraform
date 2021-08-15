@@ -43,7 +43,8 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-        npm test  
+        npm start 
+        # before with test, changed luciano 28_08_15  
 - name: Setup Node.js environment
   uses: actions/setup-node@v2.4.0
   with:
